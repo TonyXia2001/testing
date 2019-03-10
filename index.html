@@ -27,9 +27,8 @@
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
-      }
-      
-      mapRequest = {
+        
+        mapRequest = {
   origin: 'Chicago, IL',
   destination: 'Los Angeles, CA',
   waypoints: [
@@ -52,6 +51,7 @@
         var directionsDisplay = new google.maps.DirectionsRenderer;
       directionsDisplay.setMap(map);
       directionsService.route(mapRequest);
+      }
 
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4ffefqz2hpAaDJECnpiS3EbFLr0hF16g&callback=initMap"
