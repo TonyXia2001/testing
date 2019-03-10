@@ -51,6 +51,7 @@
         var directionsDisplay = new google.maps.DirectionsRenderer;
       directionsDisplay.setMap(map);
       directionsService.route(mapRequest);
+      directionsDisplay.setDirections(directionService);
       }
 
     </script>
